@@ -1,0 +1,13 @@
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:10:21: missed: couldn't vectorize loop
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:29: missed: not vectorized: complicated access pattern.
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:23: optimized: loop vectorized using 32 byte vectors
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:23: optimized: loop vectorized using 16 byte vectors
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Analysis failed with vector mode V4DF
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** The result for vector mode V32QI would be the same
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Analysis failed with vector mode V16QI
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Analysis failed with vector mode V8QI
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/g/gdhillon/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:17:10: note: ***** Analysis failed with vector mode V4QI
